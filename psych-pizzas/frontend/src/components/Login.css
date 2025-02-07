@@ -1,0 +1,83 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../assets/images/pizza-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-box {
+  background: rgba(255, 245, 225, 0.95);
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(139, 69, 19, 0.3);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: 2px solid #8B4513;
+}
+
+h2 {
+  color: #8B4513;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #8B4513;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #8B4513;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* BOTÃO ALTERADO PARA VERMELHO */
+button {
+  width: 100%;
+  background: #cc0000; /* Vermelho sólido */
+  border: none;
+  padding: 14px;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+button:hover {
+  background: #990000; /* Vermelho mais escuro */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.error-message {
+  color: #ff4444; /* Vermelho mais claro para contrastar */
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}

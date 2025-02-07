@@ -1,0 +1,106 @@
+/* components/Dashboard.css */
+.dashboard-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff8f0;
+}
+
+.formulario-pedido {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(139, 69, 19, 0.1);
+    margin-bottom: 30px;
+    border: 2px solid #8B4513;
+}
+
+.formulario-pedido h2 {
+    color: #8B4513;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    color: #8B4513;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #8B4513;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.btn-criar {
+    background: linear-gradient(45deg, #FF4500, #8B4513);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.btn-criar:hover {
+    transform: scale(1.05);
+}
+
+.tabela-pedidos {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.tabela-pedidos table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-pedidos th {
+    background: #8B4513;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabela-pedidos td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.tabela-pedidos select {
+    padding: 8px;
+    border: 2px solid #8B4513;
+    border-radius: 8px;
+}
+
+.mensagem-status {
+    color: #228B22;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.btn-limpar {
+    background: #dc3545; /* Vermelho */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+}
+
+.btn-limpar:hover {
+    background: #c82333; /* Vermelho mais escuro */
+}

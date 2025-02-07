@@ -1,0 +1,160 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #fff5e1;
+  color: #3e2723;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #b71c1c;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Container principal */
+.container {
+  max-width: 1100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #5c1cac;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 16px 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  color: #3e2723;
+}
+
+.login-box button {
+  width: 100%;
+  background: linear-gradient(to right, #833ab4, #5c1cac);
+  border: none;
+  padding: 14px;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-box button:hover {
+  background: linear-gradient(to right, #5c1cac, #833ab4);
+  transform: scale(1.08);
+}
+
+/* Formulário de pedidos */
+.order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: auto;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.order-form input, .order-form select {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  color: #3e2723;
+}
+
+.order-form button {
+  background: linear-gradient(to right, #833ab4, #5c1cac);
+  border: none;
+  padding: 14px 18px;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.order-form button:hover {
+  background: linear-gradient(to right, #5c1cac, #833ab4);
+  transform: scale(1.08);
+}
+
+/* Tabela de pedidos */
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.order-table th, .order-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.order-table th {
+  background-color: #5c1cac;
+  color: white;
+  font-size: 20px;
+}
