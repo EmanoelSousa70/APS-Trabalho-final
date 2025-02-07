@@ -6,7 +6,6 @@ const sequelize = require('./config/db');
 
 const app = express();
 
-// Configurar CORS para permitir apenas o frontend local
 app.use(cors({
     origin: 'http://localhost:3000'  
 }));
@@ -17,7 +16,7 @@ app.use(express.json());
 app.use('/api/pedidos', pedidoRoutes);
 app.use('/api', loginRoutes);
 
-// Sincronizando o banco de dados e iniciando o servidor
+
 const PORT = 5000;
 sequelize.sync({ alter: true }) // Atualiza a tabela conforme o modelo
     .then(() => {

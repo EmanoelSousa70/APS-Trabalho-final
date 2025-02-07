@@ -1,4 +1,3 @@
-// models/pedidoModel.js
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/db');
 
@@ -31,10 +30,10 @@ const Pedido = sequelize.define('Pedido', {
         type: DataTypes.INTEGER,
         allowNull: false
     },
-    preco: { // Campo adicionado
+    preco: { 
         type: DataTypes.FLOAT,
         allowNull: false,
-        defaultValue: 0.0 // Valor padrão
+        defaultValue: 0.0 
     },
     status: {
         type: DataTypes.STRING,
